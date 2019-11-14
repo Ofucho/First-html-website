@@ -3,27 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>My Profile</title>
-</head>
-<body>
-<center><img src="1.jpg" alt="jb's pic" width="800" height="700"></center>
+    <link rel="stylesheet" href="styling.css">
+body {background-color: #8cf3ff;}
+h1   {color: #322dff;}
+p    {color: #ffc141;}
+th   {color: #ff2325;text-align: left}
+.styleone {padding-left: 300px}
+.styletwo {font-family: "Calibri Light"}
+#idone {font-weight: bold}
 
-<h1><center>JohnBen Ofucho Profile</center> </h1>
-<h2> Welcome to my profile </h2>
-<p style="background: azure; font-family: 'Berlin Sans FB'">I create websites, develop software.<br>
+</head>
+<body class="styletwo" >
+<center><img src="1.jpg" alt="jb's pic" width="300" height="200"></center>
+
+<h1 style="text-align:center;">JohnBen Ofucho Profile</center> </h1>
+<h2 style="text-align:center;"> Welcome to my profile </h2>
+<p  style="background: darkcyan; font-family: 'Berlin Sans FB'">I create websites, develop software.<br>
     At affordable prices. </p>
 <p>Below is a detailed list of services;</p>
 <ol>
-    <li>web</li>
-    <li>hosting</li>
+    <li class="styleone">web</li>
+    <li id="idone">hosting</li>
     <li>data</li>
 </ol>
 <a href="https://wwww.techcamp.co.ke/bootcamp" target="_blank">Visit this website</a>
+
 
 <table border >
 
     <tr>
         <th>Id</th>
-        <th>Name</th>
+        <th style="color: chartreuse">Name</th>
         <th>Email</th>
 
     </tr>
@@ -34,26 +44,30 @@
     </tr>
 
     <tr>
-        <th>2</th>
-        <th>mary jane</th>
-        <th>mj@gmail.com</th>
+        <td>2</td>
+        <td>chrome browser</td>
+        <td>chrome@gmail.com</td>
     </tr>
+
+
+    <tr>
+        <td>3</td>
+        <td>tech camp</td>
+        <td>techcamp@mail.com</td>
+    </tr>
+
+
 </table>
 <center>
 <form method="post" action="/">
-    <label>Full Name</label> <input> type="text" name="full_name"><br>
-    <label>Email: </label> <input> type="email" name="email"><br>
-    <label>Password: </label> <input> type="password" name="password"><br>
-    <center><input type="submit" value="Register"></center>
+    <label class="styleone">Full Name: </label> <input type="text" name="full_name"><br>
+    <label>Email: </label> <input type="email" name="email"><br>
+    <label>Password: </label> <input type="password" name="password"><br>
+    <center><input type="submit" value="Register"style="background-color:#95fffa;"></center>
 </form>
 
 
 </center>
-
-
-
-
-
 
 </body>
 </html>
